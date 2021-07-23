@@ -1,45 +1,80 @@
-        body{background-color:white;font-family:raleway;}
+        @font-face {
+                font-family: 'Raleway';
+                src: url(raleway/Raleway-Regular.ttf);
+        }
+        body{background-color:white;font-family:Raleway;}
         
         #conteneur{ width:100%;margin:auto;}
         
         #haut{      height:100px;
                     width:98%;
                     padding:10px;
-                    font-size:18px;font-color:black;}
+                    font-size:18px;
+                    color:black;}
                     
-        #fieldset{border-radius:20px;width:300px;background-color:#0065FC}
-	#input{border-radius:20px;}
+        #recherche{     border-top-right-radius:20px;
+                        border-bottom-right-radius:20px;
+                        width:300px;
+                        height: 100%;
+                        color:white;
+                        background-color:#0065FC}
+	
                     
         #lien{      height:36px;
                     width:auto%;
                     padding-top:1px;}
-                    
+        #lien1,#lien3{color:#0065FC}
+        #lien2{color:black}
+
+        #lien a{    display:block;
+                float:left;
+                text-align:center;
+                font-size:24px;
+                width:20%;
+                height:26px;
+                margin-top: auto;
+                margin-left:140px;
+                margin-right:10px;
+                padding-top:8px;
+                background-color:white;
+            } 
+                
+        #lien a:hover{border-top:3px solid #0065FC;}
+        #lien a:focus{border-top:3px solid #0065FC;}
+    
+               
         #milieu{    height:759px;
                     padding:10px;
                     width:98%;
                     font-size:18px;
                     background-color:#fff;}
-                    
+        .flottant{      float: left;
+                        border: solid 3px white;
+                        border-radius: 20px;}
+        .border1{       border: solid 3px white;
+                        border-radius: 20px;}
+        .border2{       border: solid 3px white;
+                        border-radius: 20px;}
         
-        #lien a{    display:block;
-                    float:left;
-                    text-align:center;
-                    font-size:24px;
-                    width:23.5%;
-                    height:26px;
-                    margin-left:7px;
-                    margin-right:5px;
-                    padding-top:8px;
-                    background-color:white;
-                    color:#182487;} 
-                    
-        #lien a:hover{border-top:3px solid #182487;}
-        #lien a:focus{border-top:3px solid #182487;}
+        #figure{text-align: center;}
+
+        .contour{       border-radius: 20px;
+                        background-color: #F2F2F2;}
         
+        #article{height:70%;
+                padding:10px;}
+
+        /*#aside{}
+        #section{}*/
         
         
        
         #liens{height:759px;display:none;overflow:auto;}
         
-        #bas{       height:200px;font:raleway;
-                    background-color:#F2F2F2;width:auto%;color:black;}
+        
+        #bas{       height:200px;
+                text-align:justify;
+                background-color:#F2F2F2;
+                width:100%;
+                color:black;}
+                #enbas{width: 100%;}
