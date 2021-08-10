@@ -1,7 +1,7 @@
         @font-face {
                 font-family: 'Raleway';
-                src: url(raleway/Raleway-Regular.ttf);
-        }
+                src: url(raleway/Raleway-Regular.ttf);}
+
         body{background-color:white;font-family:Raleway;}
         
         #conteneur{ width:100%;margin:auto;}
@@ -9,41 +9,37 @@
         #haut{          display:flex;
                         height: 50px;
                         width: 10%; 
+                        margin-left: 20px;
                         margin-bottom:30px;
                         background-color: white;}
-                        
+
         #liens{         display:flex;
-                        flex-direction: :row-reverse;
                         float: left;
                         width:auto;
                         text-align:center;
-                        margin-top:10px;
+                        margin-left:500px;
+                        margin-top:20px;
                         margin-right:20px;}
         
 
-        #liens a{       
-                                
-                                text-align:center;
-                                font-size:24px;
-                                width:auto;
-                        
-                                margin-top: auto;
-                                margin-left:20%;
-                                margin-right:10px;
-                                
-                                background-color:white;
-                            }
+        #liens a{       text-align:center;
+                        font-size:15px;
+                        width:auto;
+                        margin-left: 20px;
+                        margin-right:20px;
+                        background-color:white;}
                                 
         #liens a:hover{border-top:solid 3px #0065FC;}
+                            
         #liens a:focus{border-top:solid 3px #0065FC;}
 
 	
         a:visited{color: #0065FC;}
                     
-        #lien1#lien3{color:#0065FC}
-        #lien2{color:black}
+        #lien1#lien3{color:#0065FC;}
+        #lien2{color:black;}
                 
-        #button{        border:solid 1px #F2F2F2 }
+        #button{        border:solid 1px #F2F2F2;}
         
        
         #localisation { color:black;
@@ -52,8 +48,11 @@
                         text-align: center;
                         background-color:#F2F2F2;
                         border-top-left-radius: 20px;
-                        border-bottom-left-radius: 20px;}     
-        #search         {width: auto;height: auto;}
+                        border-bottom-left-radius: 20px;}   
+
+        #search         {width: auto;
+                        height: auto;}
+
         #recherche{     border-top-right-radius:20px;
                         border-bottom-right-radius: 20px;
                         width:30px;
@@ -61,7 +60,7 @@
                         color:white;
                         background-color:#0065FC;}
 
-        #logo{          color: #0065FC;
+        .logo{          color: #0065FC;
                         margin-left: 20px;
                         border:solid 1px #Deebff;
                         border-radius: 70% 70% 70% 70%;
@@ -86,6 +85,7 @@
 
                
         #milieu{        display:flex;
+                        
                         height:759px;
                         margin-top: 50px;
                         margin-left:10px;
@@ -96,35 +96,42 @@
                         background-color: #F2F2F2;
                         color: black;}
         
-        .imageheberge{         width:100px;
+        .imageheberge{  width:100px;
                         height: 50px;}
 
-        .border1{       border: solid 5px white;
-                                border-radius: 20px;
-                                background-color: white;
-                                width:100px;
-                                height:100px}
-        
+        .element {      border: solid 5px white;
+                        border-radius: 20px;
+                        background-color: white;
+                        width:150px;
+                        height:100px;}
         
 
         #articlecote{   display:flex;
+                        flex-direction: column;
                         width: 40%;
                         font-size:10px;
-                        margin-top: 20px;
-                        margin-left: 0px;
+                        
                         border-radius: 20px;
                         background-color: #F2F2F2;
                         color: black;}
 
+        .element2{      background-color: white; 
+                        border-radius: 20px;  
+                        color: black; 
+                        width: 200px; 
+                        height: 80px;}
+        
+        
 
         .flottant{      float: left;
                         width:50px;
+                        
                         border: solid 3px white;
                         border-top-left-radius: 20px;
                         border-bottom-left-radius: 20px;}
 
-        #etoilebleu{    color: #0065FC;}
-        #etoilegrise{   color:#F2F2F2;}
+        .etoilebleu{    color: #0065FC;}
+        .etoilegrise{   color:#F2F2F2;}
 
         
 
@@ -133,12 +140,14 @@
                         box-shadow: 6px 6px 6px #F2F2F2;
                         background-color: white;}
         
-        #figure{        text-align: center;}
+        #figure{        text-align: center;
+                        background-color: white;}
 
 
         #articlebas{    border: #F2F2F2;
                         display:flex;
-                        font-size: 10px;}
+                        font-size: 10px;
+                        color:black;}
 
 
         .imgactiv{      width:100px;
@@ -147,12 +156,12 @@
                         height: 200px;}
        
         
-        #bas{   height:200px;
-                text-align:justify;
-                background-color:#F2F2F2;
-                width:100%
-                margin-top: 20px;
-                color:black;}
+        #plan{          height:200px;
+                        text-align:justify;
+                        background-color:#F2F2F2;
+                        width:100%;
+                        margin-top: 20px;
+                        color:black;}
 
         #enbas{         width: 100%;
                         margin-top: 20px;
